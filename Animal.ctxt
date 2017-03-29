@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\n\ Animal.\ Dies\ ist\ die\ Basisklasse\ fuer\ alle\ Tiere.\ Zusaetzlich\ zu\ den\ Standardmethoden\ \n\ der\ Actor-Klasse\ verleiht\ sie\ die\ Faehigkeit,\ sich\ zu\ bewegen\ und\ zu\ drehen.\n\ \n\ @author\ Michael\ Kolling\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Animal()
+comment1.text=\n\ Konstruktor\ fuer\ Animal\ -\ ohne\ Aufgabe.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Leere\ Methode.\ Tiere\ verfuegen\ ueber\ keine\ Standardaktionen.\n
+comment3.params=angle
+comment3.target=void\ turn(int)
+comment3.text=\n\ Dreht\ 'angle'\ Grad\ nach\ rechts\ (im\ Uhrzeigersinn).\n
+comment4.params=
+comment4.target=void\ move()
+comment4.text=\n\ Rueckt\ vorwaerts\ in\ die\ aktuelle\ Richtung.\n
+comment5.params=
+comment5.target=boolean\ atWorldEdge()
+comment5.text=\n\ Prueft,\ ob\ wir\ nahe\ an\ einem\ der\ R\uFFFDnder\ der\ Welt\ sind.\ Liefert\ true\ zurueck,\ wenn\ ja.\n
+comment6.params=clss
+comment6.target=boolean\ canSee(java.lang.Class)
+comment6.text=\n\ Liefert\ true\ zurueck,\ wenn\ wir\ genau\ dort,\ wo\ wir\ sind,\ ein\ Objekt\ der\ Klasse\ 'clss'\ sehen.\ \n\ False,\ wenn\ dort\ kein\ solches\ Objekt\ vorhanden\ ist.\n
+comment7.params=clss
+comment7.target=void\ eat(java.lang.Class)
+comment7.text=\n\ Versucht,\ ein\ Objekt\ der\ Klasse\ 'clss'\ zu\ fressen.\ Dies\ ist\ nur\ erfolgreich,\ wenn\ dort,\n\ wo\ wir\ gerade\ sind,\ ein\ solches\ Objekt\ vorhanden\ ist.\ Andernfalls\ macht\ diese\ Methode\n\ nichts.\n
+numComments=8

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CrabWorld
+comment1.params=
+comment1.target=CrabWorld()
+comment2.params=
+comment2.target=void\ createWorld()
+comment3.params=
+comment3.target=void\ powerUpSpawn()
+numComments=4
